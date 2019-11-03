@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+    <title>GFA | Calendar</title>
+</head>
+<body>
+<!-- app -->
+<div id="app">
+   <!-- <header>
+        <h1 class="head"><b>{{name}}</b></h1>
+    </header>-->
+    <navbar></navbar>
+    <br>
+    <div id="wrapper">
+    <div id="caltext">
+        <p>Look for a time or make up here!</p>
+        <!--Google Calendar is used so that it can be updated from my phone app-->
+        <div id="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=bpn33qtjqbvdt4ka0rpebk6bnk%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div id="tCalendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=bpn33qtjqbvdt4ka0rpebk6bnk%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="675" height="300" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div id="mCalendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=bpn33qtjqbvdt4ka0rpebk6bnk%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="500" height="300" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+    </div>
+    </div><br>
+    <app-footer company-name="Guitfiddle Academy" company-email="guitacademy@gmail.com"></app-footer><br><br><br>
+</div><!--app-->
+
+<!-- Load polyfills to support older browsers -->
+<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+<!-- Load Vue followed by BootstrapVue -->
+<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<!--local-->
+<script src="javascript/components.js"></script>
+<script src="javascript/vueapp.js"></script>
+</body>
+</html>

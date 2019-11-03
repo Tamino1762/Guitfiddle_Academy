@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+
+
+    <title>GFA</title>
+</head>
+<body>
+
+
+<!-- app -->
+<div id="app">
+   <!-- <header>
+        <h1 class="head"><b>{{name}}</b></h1>
+    </header>-->
+<navbar></navbar>
+<br>
+    <div id="wrapper">
+        <!--<img src="pics/violin-musical-instrument-music-sound.jpg" id="mainpic" alt="violin">-->
+        <h2>Welcome To Guitfiddle Academy!</h2>
+
+        <p>The Guitfiddle Academy music studio is located at Wondersound Music in the heart of downtown Menomonee Falls. For over 15 years, Guitfiddle Academy has been teaching violin, viola, and guitar lessons to the residents of Menomonee Falls and the surrounding areas.</p>
+
+        <h3>Announcements</h3>
+        <p>Welcome to the new Guitfiddle Academy website! Important annnouncements will be made here via Twitter. </p><br>
+        <div class="twitter">
+            <a class="twitter-timeline" href="https://twitter.com/Guitfiddles?ref_src=twsrc%5Etfw" data-width="400" data-height="300">Tweets by Guitfiddles</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </div>
+<br>
+    <app-footer company-name="Guitfiddle Academy" company-email="guitacademy@gmail.com"></app-footer><br>
+</div><!--app-->
+<!-- Load polyfills to support older browsers -->
+<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+<!-- Load Vue followed by BootstrapVue -->
+<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<!--local-->
+<script src="javascript/components.js"></script>
+<script src="javascript/vueapp.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+body {
+    background-image: linear-gradient(to top, #fff, #90c7e3);
+    /*    display: block;*/
+    background-repeat: no-repeat;
+}
+header {
+
+   /* background-image: url(pics/head1.jpg);*/
+    background-repeat: no-repeat;
+    /*padding-left: 15em;*/
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 1em;
+    color: whitesmoke;
+
+}
+.twitter {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+    text-align: center;
+    font-family: cursive;
+}
+p {
+    /*text-align: center;*/
+    font-family: cursive;
+}
+/*tabs*/
+mt-3 {
+    color: #5eff1f;
+    font-family: cursive;
+}
+#calendar {
+    display: inline;
+    text-align: center;
+}
+#mCalendar {
+    display: none;
+}
+
+#tCalendar {
+    display: none;
+}
+
+#calendar {
+    text-align: center;
+}
+#caltext {
+    display: inline;
+    text-align: center;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3f2860;
+    border: outset black 2px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #666;
+    display: block;
+    padding: 1em;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
+#map, #mapLink {
+    text-align: center;
+}
+#help {
+    text-align: right;
+}
+#pics ul {
+    width: 300px;
+    list-style: none;
+    text-align: right;
+}
+
+#pics li {
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+}
+
+#pics img {
+    border: 0;
+    alignment: right;
+}
+
+#pics a {
+    text-decoration: none;
+    color: green;
+    font-style: italic;
+}
+
+#pics span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#pics a:hover span {
+    position: fixed;
+    top: 16px;
+    left: 320px;
+    opacity: 1;
+    text-align: right;
+}
+/*mobile screens*/
+@media only screen and (max-width: 64em) {
+    #pics figure {
+        display: none;
+    }
+
+    header {
+        height: auto;
+        background-image: none;
+        padding: 0;
+    }
+
+    h1 {
+        letter-spacing: .1em;
+    }
+
+    #main {
+        display: none;
+    }
+
+    #map {
+        display: none;
+    }
+
+    #mapLink {
+        display: block;
+        text-align: center;
+    }
+
+    #pics span {
+        display: none;
+    }
+
+    #calendar {
+        display: none;
+    }
+
+    #mCalendar {
+        display: none;
+    }
+
+    #tCalendar {
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 34em) {
+    main {
+        padding: 0.1em 1em 0.1em 1em;
+        font-size: 90%;
+        text-align: left;
+        font-family: sans-serif;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #pics figure {
+        display: none;
+    }
+
+    header {
+        height: auto;
+        background-image: none;
+        padding: 0;
+    }
+
+    #main {
+        display: none;
+    }
+
+    #map {
+        display: none;
+    }
+
+    #mapLink {
+        display: block;
+        text-align: center;
+    }
+
+    #pics span {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #mobile {
+        display: inline;
+        border: solid black 1px;
+        background-color: lightblue;
+        border: outset 2px #cccccc;
+        border-radius: 5px;
+
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    #mainpic {
+        display: none;
+    }
+
+    .head {
+        background: none;
+        color: black;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #3f2860;
+        background-color: #f5f5f5;
+        text-align: left;
+        border: none;
+        display: inline-block;
+        box-shadow: none;
+    }
+
+    box li {
+        text-align: left;
+    }
+
+    ul {
+        text-align: left;
+    }
+
+    #calendar {
+        display: none;
+    }
+
+    #tCalendar {
+        display: none;
+    }
+
+    #mCalendar {
+        display: inline;
+        text-align: center;
+    }
+}
+

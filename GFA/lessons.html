@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+
+
+    <title>GFA | Lessons</title>
+</head>
+<body>
+
+<!-- app -->
+<div id="app">
+    <!--<header>
+        <h1 class="head"><b>{{name}}</b></h1>
+    </header>-->
+    <navbar></navbar>
+    <br>
+    <div id="wrapper">
+    <div>
+        <b-tabs content-class="mt-3" align="center">
+            <b-tab title="General" active>
+                <h2><u>In General</u></h2><br>
+                <p>Here at Guitfiddle Academy, students are taught one on one, and lessons are catered to each individual student.
+                Students are taught to have a great understanding of music and how it works, while having fun learning.
+                Over the past 15 years, Guitfiddle Academy has streamlined the learning process through experience with hundreds of individuals.
+                    This means students are taught learning and practice tools that really work to learn any style
+                and accomplish thier musical goals. In addition, technology right in the studio helps students keep up with today's growing music tech needs.
+                Each lesson is a 1/2 hour in length (an hour may be taken) at the same time every week. If you find your time no longer works for you, you may change
+                to a different one.</p>
+                 </b-tab>
+            <b-tab title="Violin">
+                <h2><u>Violin Lessons</u></h2>
+                <h4>All</h4>
+                <p>At Guitfiddle Academy we realize that today's music demands more than classical music training. Though classical is an important part of learning technique, other styles can be just as important (and fun!). Violinists at Guitfiddle Academy will not only be able to play with an orchestra, but they will also be able to play with a band and will be able fiddle if there is interest. Students of all instruments are invited to play in the Wondersound Music recital. Once a year, through Wondersound Music, they have the option to play with a rock band outside of lessons and be in a rock show! It is nice to also step away from "normal stuff" too sometimes. Even if it's not fiddle music, music from movies, anime, video games, etc. can also supplement learning just for fun.</p>
+                <h4>Beginner</h4>
+                <p>Beginners age 5 and up are taught fundamentals first through the book <i>Essential Elements 2000</i>. Students are taught how to hold the violin and some basic rudiments of music while plucking the strings. When the student can read notation on two strings and adequately hold the violin, the budding violinist is taught to hold and use the bow on open strings. Both left and right hands are used together once each open string can be played well. When all four strings and basic scales are learned, the student "graduates" to <i>Suzuki Book 1</i> where more basic technique is taught through familiar songs and pieces.</p>
+                <h4>Intermediate</h4>
+                <p>In addition to progression pieces, intermediate violinists will begin learning doublestops, 2nd and 3rd positions, harmonics, and more advanced scales. They will also solidify technique through etudes. It is at this level that students in 7th - 12th grade can enter the <a href="https://wsmamusic.org/">WSMA Solo &amp; Ensemble</a> through school.</p>
+                <h4>Advanced</h4>
+                <p>Advanced students learn positions 4 and up, more advanced doublestops, advanced bow technique, solidify 3 octave scales, and study more advanced etudes. Further, students learn more advanced pieces and concerti.</p>
+                <h4>Music Theory</h4>
+                <p>Music theory is important! Each student will learn music theory as part of his/her lesson. How advanced the theory is depends on age. Also, seperate theory lessons can be taken weekly or once in awhile in addition to regular lessons.</p>
+                <h3>Keep In Mind...</h3>
+                <p>The above are general learning schedules. Each student is different and will progress differently.</p></b-tab>
+            <b-tab title="Viola"><h2><u>Viola Lessons</u></h2>
+                <h4>All</h4>
+                <p>At Guitfiddle Academy we realize that today's music demands more than classical music training. Though classical is an important part of learning technique, other styles can be just as important (and fun!). Violists at Guitfiddle Academy will not only be able to play with an orchestra, but they will also be able to play with a band and will be able to play fiddle on viola if there is interest. Students of all instruments are invited to play in the Wondersound Music recital. Once a year, through Wondersound Music, they have the option to play with a rock band outside of lessons and be in a rock show! It is nice to also step away from "normal stuff" too sometimes. Even if it's not fiddle music, music from movies, anime, video games, etc. can also supplement learning just for fun.</p>
+                <h4>Beginner</h4>
+                <p>Beginners age 5 and up are taught fundamentals first through the book <i>Essential Elements 2000</i>. Students are taught how to hold the viola and some basic rudiments of music while plucking the strings. When the student can read notation on two strings and adequately hold the viola, the budding violist is taught to hold and use the bow on open strings. Both left and right hands are used together once each open string can be played well. When all four strings and basic scales are learned, the student "graduates" to <i>Suzuki Book 1</i> where more basic technique is taught through familiar songs and pieces.</p>
+                <h4>Intermediate</h4>
+                <p>In addition to progression pieces, intermediate violists will begin learning doublestops, 2nd and 3rd positions, harmonics, and more advanced scales. They will also solidify technique through etudes. It is at this level that students in 7th - 12th grade can enter the <a href="https://wsmamusic.org/">WSMA Solo &amp; Ensemble</a> through school.</p>
+                <h4>Advanced</h4>
+                <p>Advanced students learn positions 4 and up, more advanced doublestops, advanced bow technique, solidify 3 octave scales, and study more advanced etudes. Further, students learn more advanced pieces and concerti.</p>
+                <h4>Music Theory</h4>
+                <p>Music theory is important! Each student will learn music theory as part of his/her lesson. How advanced the theory is depends on age. Also, seperate theory lessons can be taken weekly or once in awhile in addition to regular lessons.</p>
+                <h3>Keep In Mind...</h3>
+                <p>The above are general learning schedules. Each student is different and will progress differently.</p></b-tab>
+            <b-tab title="Guitar">
+                <h2><u>Guitar Lessons</u></h2>
+                <h4>All</h4>
+                <p> Students of all instruments are invited to play in the Wondersound Music recital. Once a year, through Wondersound Music, they have the option to play with a rock band outside of lessons and be in a rock show! It is nice to also step away from "normal stuff" too sometimes. Music from movies, anime, video games, etc. can also supplement learning just for fun.</p>
+                <h4>Beginner</h4>
+                <p>All guitar students are first taught to read music notation, rudiments of music, and learn simple open chords. The beginner book is age appropriate, and for older students, by choice. Guitarists will also learn rock, blues, or country songs that use open chords.</p>
+                <h4>Intermediate</h4>
+                <p>Students at the intermediate level will learn more advanced chords, 2nd and 5th postion, and a style of interest. In addition, students learn simple soloing technique, song form, scales, progressive songs and may wish to learn finger-style. </p>
+                <h4>Advanced</h4>
+                <p>Advanced students learn all other positions, more advanced chords, advanced technique, solidify progressive scales and modes, and learn advanced songs.</p>
+                <h4>Music Theory</h4>
+                <p>Music theory is important! Each student will learn music theory as part of his/her lesson. How advanced the theory is depends on age. Also, seperate theory lessons can be taken weekly or once in awhile in addition to regular lessons.</p>
+                <h3>Keep In Mind...</h3>
+                <p>The above are general learning schedules. Each student is different and will progress differently.</p></b-tab>
+            <!--<b-tab title="Disabled" disabled><p>I'm a disabled tab!</p></b-tab>-->
+        </b-tabs>
+    </div>
+    </div>
+    <br>
+    <app-footer company-name="Guitfiddle Academy" company-email="guitacademy@gmail.com"></app-footer><br><br><br>
+</div><!--app-->
+<!-- Load polyfills to support older browsers -->
+<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+<!-- Load Vue followed by BootstrapVue -->
+<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<!--local-->
+<script src="javascript/components.js"></script>
+<script src="javascript/vueapp.js"></script>
+</body>

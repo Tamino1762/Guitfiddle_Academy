@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Load required Bootstrap and BootstrapVue CSS -->
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+
+
+    <title>GFA | Location</title>
+</head>
+<body>
+<!-- app -->
+<div id="app">
+    <!--<header>
+        <h1 class="head"><b>{{name}}</b></h1>
+    </header>-->
+    <navbar></navbar>
+    <br>
+    <div id="wrapper">
+        <div id="map">
+        <h2>Location</h2>
+        <p>Guitfiddle Academy is located inside <a href="https://www.wondersoundmusic.com/" target="_blank">Wondersound Music</a> in beautiful downtown Menomonee Falls.</p>
+        <h3>Address:</h3>
+        <p>N89 W16744 Appleton Ave.<br>Menomonee Falls, WI 53051</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.4285036058436!2d-88.11996368420117!3d43.17951897914045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804fe1ac5860451%3A0xe8b9de6e55f872a8!2sWondersound+Music+Co.!5e0!3m2!1sen!2sus!4v1546622948511" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div id="mapLink"><a href="https://goo.gl/maps/j8vXQf78Lek" target="_blank">Map</a></div>
+
+    </div>
+        <br>
+    <app-footer company-name="Guitfiddle Academy" company-email="guitacademy@gmail.com"></app-footer><br><br><br>
+</div><!--app-->
+
+<script>
+    export default {
+        data: () => ({
+            dialog: false,
+        }),
+    }
+</script>
+<!-- Load polyfills to support older browsers -->
+<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+
+<!-- Load Vue followed by BootstrapVue -->
+<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<!--local-->
+<script src="javascript/components.js"></script>
+<script src="javascript/vueapp.js"></script>
+</body>
